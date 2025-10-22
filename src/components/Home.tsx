@@ -1,5 +1,6 @@
 import ReduxBasic from "../components/ReduxBasic";
 import SumReduxBasic from "../components/SumReduxBasic";
+import Posts from "./Posts";
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
       <ReduxBasic id={1} />
       <ReduxBasic id={2} />
       <SumReduxBasic />
+      <hr />
+      <Posts />
     </div>
   );
 }
